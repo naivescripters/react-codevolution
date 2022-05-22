@@ -2,13 +2,13 @@ import React, { Component } from 'react'
 
 class Form extends Component {
     constructor(props) {
-      super(props)
-    
-      this.state = {
-         username:'',
-         comments:'',
-         topic: 'react'
-      }
+        super(props)
+        
+        this.state = {
+            username:'',
+            comments:'',
+            topic: 'react'
+        }
     }
 
     handleUsernameChange = event => {
